@@ -67,3 +67,8 @@ void addThree(int number1, int number2, int number3){
     System.out.println(addedNumbers);
 }
 addThree(3,6,9)
+
+int sumOfAngles(int angle1, int angle2){
+    int thirdAngle = 180 - (angle1 + angle2);
+    return thirdAngle;
+}

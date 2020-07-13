@@ -1,0 +1,45 @@
+Math.max(4,5)
+int max = Math.max(15,25);
+max
+void sum(int number1, int number2){
+   int addedNumbers = number1 + number2;
+    System.out.println(addedNumbers);
+}
+int sumOfTwoNumbers(int firstNumber, int secondNumber){
+    int sum = firstNumber + secondNumber;
+    return sum; 
+}
+void addThree(){}
+void addThree(int number1, int number2, int number3){
+    int addedNumbers = number1 + number2 + number3;
+    System.out.println(addedNumbers);
+}
+sumOfTwoNumbers(2,2);
+int sumfOfThreeNumbers(int a, int b){
+    int sum = a + b;
+    return sum;
+}
+int sumOfThreeNumbers(int a, int b){
+    int sum = a + b;
+    return sum;
+}
+int sumOfThreeNumbers(int a, int b, int c){
+    int sum = a + b + c;
+    return sum;
+}
+sumOfThreeNumbers(3,3,3)
+sumOfThreeNumbers(3,10,30)
+int sumOfAngles(int c){
+    int sum = a + b;
+    return sum;
+}
+sumOfAngles(50,100)
+int sumOfAngles(int angle1, int angle2){
+    int thirdAngle = 180 - (angle1 + angle2);
+    return thirdAngle;
+}
+int findThirdAngle(int angle1, int angle2){
+    int thirdAngle = 180 - (angle1 + angle2);
+    return thirdAngle;
+}
+findThirdAngle(45,45)
