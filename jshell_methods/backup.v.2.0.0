@@ -1,0 +1,15 @@
+int table;
+for (int i = 1; i <= 10; i++){
+   System.out.printf("%d * %d = %d", 7, i, 7*i).println();
+}
+void sayHelloWorldTwice(){
+    System.out.println("HelloWorld");
+    System.out.println("HelloWorld");
+}
+sayHelloWorldTwice()
+void printLearningExperience() {
+    System.out.println("I've created sdf first variable");
+    System.out.println("I've created fsadjf first method");
+    System.out.println("I've created fsajdfl first loop");
+    System.out.println("I'm excited fasdflkjfskfsd learn");
+}

@@ -1,0 +1,69 @@
+int table;
+for (int i = 1; i <= 10; i++){
+   System.out.printf("%d * %d = %d", 7, i, 7*i).println();
+}
+sayHelloWorldTwice()
+void printLearningExperience() {
+    System.out.println("I've created sdf first variable");
+    System.out.println("I've created fsadjf first method");
+    System.out.println("I've created fsajdfl first loop");
+    System.out.println("I'm excited fasdflkjfskfsd learn");
+}
+void sayHelloWorldTwice(){
+    System.out.println("HelloWorld");
+    System.out.println("Hola a todos");
+}
+sayHelloWorldTwice()
+sayHelloWorld(1)
+sayHelloWorld(1)
+sayHelloWorld(2)
+sayHelloWorld(2)
+sayHelloWorld(6)
+sayHelloWorld(6)
+void sayHelloWorld(int noOfTimes){
+    for(int i=1; i<=noOfTimes; i++){
+    System.out.println("Hello World");
+ }
+}
+sayHelloWorld(6)
+printNumber(1)
+printNumber(10)
+void printNumber(int n) {
+    for(int i=1; i<=n; i++) {
+        System.out.println(i);
+    }
+}
+printNumber(1);
+printNumber(10);
+printNumber(20);
+printNumber(10);
+void printSquaresOfNumbers(int n){
+    for(int i=1; i<=n; i++) {
+        System.out.println(i*i);
+    }
+}
+printSquaresOfNumbers(10)
+sayHelloWorld(3)
+void printMultiplicationTable(int table){
+   for(int i=1; i<=10;i++){
+        System.out.printf("%d * %d = %d", table, i,table*i).println();
+    }
+}
+printMultiplicationTable(5)
+printMultiplicationTable(13)
+void printMultiplicationTable(){
+   for(int i=1; i<=10;i++){
+        System.out.printf("%d * %d = %d", 5, i,5*i).println();
+    }
+}
+void sum(int number1, int number2){
+   int addedNumbers = number1 + number2;
+    System.out.println(addedNumbers);
+}
+sum(2, 3)
+sum(2, 3)
+void addThree(int number1, int number2, int number3){
+    int addedNumbers = number1 + number2 + number3;
+    System.out.println(addedNumbers);
+}
+addThree(3,6,9)
