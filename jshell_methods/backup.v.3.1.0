@@ -1,0 +1,39 @@
+void sayHelloWorldTwice(){}
+void sayHelloWorld(int noOfTimes){}
+void printNumber(int n) {}
+void printSquaresOfNumbers(int n){}
+void printMultiplicationTable(int table){}
+void sum(int number1, int number2){}
+void addThree(int number1, int number2, int number3){}
+int findThirdAngle(int angle1, int angle2){
+    int thirdAngle = 180 - (angle1 + angle2);
+    return thirdAngle;
+}
+void printLearningExperience() {
+    System.out.println("I've created sdf first variable");
+    System.out.println("I've created fsadjf first method");
+    System.out.println("I've created fsajdfl first loop");
+    System.out.println("I'm excited fasdflkjfskfsd learn");
+}
+System.out.println("I love JShell");
+class Planet {
+    void revolve(){
+        System.out.println("Revolve");
+    }
+}
+Planet earth = new Planet();
+Planet cancrie55 = new Planet();
+Planet neptune = new Planet();
+Planet mars = new Planet();
+earth.revolve()
+mars.revolve()
+class Country {
+    void comingSoon(){
+        System.out.println("War never changes");
+    }
+}
+Country mexico = new Country();
+mexico.comingSoon()
+Country japan = new Country();
+Country france = new Country();
+Country usa = new Country();
