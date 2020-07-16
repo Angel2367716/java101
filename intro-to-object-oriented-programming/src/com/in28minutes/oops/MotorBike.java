@@ -10,10 +10,16 @@ public class MotorBike {
 	}
 
 	public void setSpeed(int speed) {
-		this.speed = speed;
+		if (speed > 0) {
+			this.speed = speed;
+		}
 	}
 
 	void start() {
 		System.out.println("bike started");
+	}
+
+	public void increaseSpeed(int howMuch) {
+		this.speed = this.speed + howMuch;
 	}
 }
