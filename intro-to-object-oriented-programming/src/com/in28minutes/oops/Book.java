@@ -9,11 +9,20 @@ public class Book {
 	}
 
 	public void setNoOfCopies(int noOfCopies) {
-		this.noOfCopies = noOfCopies;
+		if (noOfCopies > 0) {
+			this.noOfCopies = noOfCopies;
+		}
 	}
-
 
 	void read() {
 		System.out.println("you read your first book!");
+	}
+
+	public void increaseNoOfCopies(int howMuch) {
+		this.noOfCopies = this.noOfCopies + howMuch;
+	}
+
+	public void decreaseNoOfCopies(int howMuch) {
+		this.noOfCopies = this.noOfCopies + howMuch;
 	}
 }
