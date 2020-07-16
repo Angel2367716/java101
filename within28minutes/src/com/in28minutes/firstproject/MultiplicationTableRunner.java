@@ -6,9 +6,8 @@ public class MultiplicationTableRunner {
 		// TODO Auto-generated method stub
 		MultiplicationTable table = new MultiplicationTable();
 		table.print();
-		// table.print(5);
-		// table.print(6);
-		// table.print(18);
+		table.print(5);
+		table.print(18);
 	}
 
 }
