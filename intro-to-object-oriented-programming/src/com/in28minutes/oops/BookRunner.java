@@ -12,9 +12,12 @@ public class BookRunner {
 		effectiveJava.read();
 		cleanCode.read();
 
-		artOfComputerProgramming.setNoOgCopies(2);
-		effectiveJava.setNoOgCopies(5);
-		cleanCode.setNoOgCopies(6);
+		artOfComputerProgramming.setNoOfCopies(2);
+		System.out.println(artOfComputerProgramming.getNoOfCopies());
+		effectiveJava.setNoOfCopies(5);
+		System.out.println(effectiveJava.getNoOfCopies());
+		cleanCode.setNoOfCopies(6);
+		System.out.println(cleanCode.getNoOfCopies());
 	}
 
 }
