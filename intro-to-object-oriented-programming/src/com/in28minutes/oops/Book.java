@@ -19,10 +19,10 @@ public class Book {
 	}
 
 	public void increaseNoOfCopies(int howMuch) {
-		this.noOfCopies = this.noOfCopies + howMuch;
+		setNoOfCopies(this.noOfCopies = this.noOfCopies + howMuch);
 	}
 
 	public void decreaseNoOfCopies(int howMuch) {
-		this.noOfCopies = this.noOfCopies + howMuch;
+		setNoOfCopies(this.noOfCopies = this.noOfCopies - howMuch);
 	}
 }

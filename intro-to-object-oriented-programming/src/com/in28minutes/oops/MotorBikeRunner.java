@@ -4,30 +4,31 @@ public class MotorBikeRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MotorBike ducati = new MotorBike();
-		MotorBike honda = new MotorBike();
-
-		ducati.start();
-		honda.start();
-
-		ducati.setSpeed(100);
-
-		ducati.increaseSpeed(100);
-		honda.increaseSpeed(500);
-
-		ducati.decreaseSpeed(50);
-		honda.decreaseSpeed(37);
-
-		//		int ducatiSpeed = ducati.getSpeed();// get ducati speed
-		//		ducatiSpeed = ducatiSpeed + 100;// increase it by 100
-		//		ducati.setSpeed(ducatiSpeed);// set it to ducati
-		//
-		//		int hondaSpeed = honda.getSpeed();// get honda speed
-		//		hondaSpeed = hondaSpeed + 100;// increase it by 100
-		//		honda.setSpeed(hondaSpeed);// set it to honda
+		MotorBike ducati = new MotorBike(100);
+		MotorBike honda = new MotorBike(200);
+		MotorBike ford = new MotorBike(300);
 
 		System.out.println(ducati.getSpeed());
 		System.out.println(honda.getSpeed());
+		System.out.println(ford.getSpeed());
+
+		ducati.start();
+		honda.start();
+		ford.start();
+
+		ducati.setSpeed(100);
+
+		ducati.increaseSpeed(10);
+		honda.increaseSpeed(100);
+		ford.increaseSpeed(100);
+
+		ducati.decreaseSpeed(250);
+		honda.decreaseSpeed(250);
+		ford.decreaseSpeed(250);
+
+		System.out.println(ducati.getSpeed());
+		System.out.println(honda.getSpeed());
+		System.out.println(ford.getSpeed());
 
 	}
 

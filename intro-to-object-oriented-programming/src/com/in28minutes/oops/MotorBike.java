@@ -5,6 +5,9 @@ public class MotorBike {
 	private int speed; // member variable
 	// co-generation right click > source > generate getters and setters
 
+	MotorBike(int speed) {
+		this.speed = speed;
+	}
 	public int getSpeed() {
 		return speed;
 	}
@@ -20,10 +23,10 @@ public class MotorBike {
 	}
 
 	public void increaseSpeed(int howMuch) {
-		this.speed = this.speed + howMuch;
+		setSpeed(this.speed = this.speed + howMuch);
 	}
 
 	public void decreaseSpeed(int howMuch) {
-		this.speed = this.speed - howMuch;
+		setSpeed(this.speed = this.speed - howMuch);
 	}
 }
