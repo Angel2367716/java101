@@ -5,6 +5,10 @@ public class MotorBike {
 	private int speed; // member variable
 	// co-generation right click > source > generate getters and setters
 
+	MotorBike() {
+		this(5); // here we are calling the other constructor
+	}
+
 	MotorBike(int speed) {
 		this.speed = speed;
 	}

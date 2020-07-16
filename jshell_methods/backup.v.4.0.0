@@ -1,0 +1,9 @@
+;
+;
+Cart cart1 = new Cart();
+class Cart {
+     Cart() {
+        System.out.println("Constructor is called");
+    }
+}
+;
