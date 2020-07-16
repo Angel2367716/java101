@@ -11,6 +11,10 @@ public class BookRunner {
 		artOfComputerProgramming.read();
 		effectiveJava.read();
 		cleanCode.read();
+
+		artOfComputerProgramming.noOfCopies = 2;
+		effectiveJava.noOfCopies = 5;
+		cleanCode.noOfCopies = 6;
 	}
 
 }
