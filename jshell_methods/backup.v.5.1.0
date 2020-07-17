@@ -1,0 +1,24 @@
+34.5
+34.56789
+double dbl = 34.5678;
+float f2 = (float) dbl;
+dbl ++
+dbl++
+dbl--
+dbl % 5
+float f = i;
+34.56789876 + 34.2234
+number1.add(number2);
+BigDecimal number3 = number1.add(number2);
+number1
+BigDecimal number1 = new BigDecimal("34.56789876");
+BigDecimal number10 = new BigDecimal(34.2234);
+BigDecimal number11 = new BigDecimal("34.56789876");
+BigDecimal number = new BigDecimal("11.5");
+BigDecimal number2 = new BigDecimal("23.45678");
+number.add(number2)
+int i =5;
+number.add(new BigDecimal(i))
+number.multiply(new BigDecimal(i))
+number.divide(new BigDecimal(i))
+number.divide(new BigDecimal(100))
