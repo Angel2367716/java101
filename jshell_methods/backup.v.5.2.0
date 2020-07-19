@@ -1,0 +1,58 @@
+34.5
+34.56789
+double dbl = 34.5678;
+float f2 = (float) dbl;
+dbl ++
+dbl++
+dbl--
+dbl % 5
+float f = i;
+34.56789876 + 34.2234
+number1.add(number2);
+BigDecimal number3 = number1.add(number2);
+number1
+BigDecimal number1 = new BigDecimal("34.56789876");
+BigDecimal number10 = new BigDecimal(34.2234);
+BigDecimal number11 = new BigDecimal("34.56789876");
+BigDecimal number = new BigDecimal("11.5");
+BigDecimal number2 = new BigDecimal("23.45678");
+number.add(number2)
+number.add(new BigDecimal(i))
+number.multiply(new BigDecimal(i))
+number.divide(new BigDecimal(i))
+number.divide(new BigDecimal(100))
+boolean isValue = false;
+i> 7
+i>= 7
+i <= 7
+i == 6
+i == 7
+i == 8
+i =8
+i = 7
+i == 7
+int i = 17;
+i >= 15
+i <= 25
+i >= 15 && i<= 25
+i = 30
+i >= 15 && i<= 25
+i = 5
+i >= 15 && i<= 25
+true && true
+true && false
+false  && false
+false || false
+true || false
+true || true
+false || false
+i >= 15 || i<= 25
+false ^ false
+false ^ true
+true ^ true
+true ^false
+!true
+!false
+int x = 6;
+!(x>7)
+System.out.println("logical operators: && || ^ ! ");
