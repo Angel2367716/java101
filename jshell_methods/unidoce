@@ -1,0 +1,16 @@
+char ch2 = '\u0022';
+char ch3 = '\u00A2';
+ch++
+ch
+++ch
+++ch
+ch + 5
+ch
+(int) ch
+ch
+System.out.println(ch);
+char ch = '\t';
+System.out.println(ch);
+char ch4 = '\u25E1';
+char ch5 = '\u00A2';
+char ch6 = '\u00A4';
