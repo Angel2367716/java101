@@ -10,8 +10,10 @@ public class MyCharRunner {
 		System.out.println(myChar.isAlphabet()); // 'a' to 'z' && 'A' to 'Z'
 
 		System.out.println(myChar.isConsonant());
-		//		MyChar.printLowerCaseAlphabets();
-		//		MyChar.printUpperCaseAlphabets();
+
+		// Static Methods
+		MyChar.printLowerCaseAlphabets();
+		MyChar.printUpperCaseAlphabets();
 	}
 
 }

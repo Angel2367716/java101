@@ -46,16 +46,6 @@ public class MyChar {
 		return false;
 	}
 
-	public static void printLowerCaseAlphabets() {
-		// TODO Auto-generated method stub
-
-	}
-
-	public static void printUpperCaseAlphabets() {
-		// TODO Auto-generated method stub
-
-	}
-
 	public boolean isConsonant() {
 		// Alphabet and it is not a Vowel
 		// ! [a, e, i, o, u]
@@ -64,5 +54,21 @@ public class MyChar {
 		}
 		return false;
 	}
+
+	// Static methods
+	public static void printLowerCaseAlphabets() {
+		// 'a' to 'z'
+		for (char ch = 'a'; ch <= 'z'; ch++) {
+			System.out.println(ch);
+		}
+	}
+
+	public static void printUpperCaseAlphabets() {
+		// 'A' to 'Z'
+		for (char ch = 'A'; ch <= 'Z'; ch++) {
+			System.out.println(ch);
+		}
+	}
+
 
 }
