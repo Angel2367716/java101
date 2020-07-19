@@ -29,15 +29,21 @@ public class MyChar {
 		return false;
 	}
 
-	public char[] isNumber() {
+	public boolean isDigit() {
 		// TODO Auto-generated method stub
-
+		if (ch >= 48 && ch <= 57) {
+			return true;
+		}
 		return false;
 	}
 
-	public char[] isAlphabet() {
-		// TODO Auto-generated method stub
-		return null;
+	//use (int) 'a' to figure out the value of a on ch which is 97
+	public boolean isAlphabet() {
+		// between a to z and A to Z
+		if (ch >= 97 && ch <= 122 || ch >= 65 && ch <= 90) {
+			return true;
+		}
+		return false;
 	}
 
 	public static void printLowerCaseAlphabets() {
@@ -48,6 +54,15 @@ public class MyChar {
 	public static void printUpperCaseAlphabets() {
 		// TODO Auto-generated method stub
 
+	}
+
+	public boolean isConsonant() {
+		// Alphabet and it is not a Vowel
+		// ! [a, e, i, o, u]
+		if (isAlphabet() && !isVowel()) {
+			return true;
+		}
+		return false;
 	}
 
 }
