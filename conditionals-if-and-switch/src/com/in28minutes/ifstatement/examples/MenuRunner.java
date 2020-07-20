@@ -29,17 +29,19 @@ public class MenuRunner {
 		System.out.println("Number2 " + number2);
 		System.out.println("Operator " + operator);
 
-		//		if (operator == "1") {
-		//
-		//			System.out.println(number1 + number2);
-		//
-		//		} else if (operator == "2") {
-		//			System.out.println(number1 - number2);
-		//
-		//		} else if (operator == "3") {
-		//			System.out.println(number1 / number2);
-		//		} else if (operator == "4") {
-		//			System.out.println(number1 * number2);
-		//		}
+		if (operator == 1) {
+
+			System.out.println("Result: " + (number1 + number2));
+
+		} else if (operator == 2) {
+			System.out.println("Result: " + (number1 - number2));
+
+		} else if (operator == 3) {
+			System.out.println("Result: " + (number1 / number2));
+		} else if (operator == 4) {
+			System.out.println("Result: " + (number1 * number2));
+		} else {
+			System.out.println("Incalid Operation");
+		}
 	}
 }
