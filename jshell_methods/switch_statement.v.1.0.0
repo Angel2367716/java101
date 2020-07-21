@@ -1,0 +1,28 @@
+if(true){
+    System.out.println("True");
+}
+if(false){
+    System.out.println("True");
+}
+if (i==30) {
+   System.out.println("True");
+} else {
+    System.out.println("i is not 3");
+}
+int i = 5;
+switch(i) {
+    case 1 : System.out.println("1");
+    case 5 : System.out.println("5");
+    default : System.out.println("default");
+}
+i = 1
+switch(i) {
+    case 1 : System.out.println("1");
+    case 5 : System.out.println("5");
+    default : System.out.println("default");
+}
+switch(i) {
+    case 1 : System.out.println("1"); break;
+    case 5 : System.out.println("5"); break;
+    default : System.out.println("default"); break;
+}

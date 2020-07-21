@@ -29,19 +29,36 @@ public class MenuRunner {
 		System.out.println("Number2 " + number2);
 		System.out.println("Operator " + operator);
 
-		if (operator == 1) {
+//		performOperationUsingNestedIfElse(number1, number2, operator);
+//	}
 
-			System.out.println("Result: " + (number1 + number2));
-
-		} else if (operator == 2) {
-			System.out.println("Result: " + (number1 - number2));
-
-		} else if (operator == 3) {
-			System.out.println("Result: " + (number1 / number2));
-		} else if (operator == 4) {
-			System.out.println("Result: " + (number1 * number2));
-		} else {
-			System.out.println("Incalid Operation");
+//	private static void performOperationUsingNestedIfElse(int number1, int number2, int operator) {
+//		if (operator == 1) {
+//
+//			System.out.println("Result: " + (number1 + number2));
+//
+//		} else if (operator == 2) {
+//			System.out.println("Result: " + (number1 - number2));
+//
+//		} else if (operator == 3) {
+//			System.out.println("Result: " + (number1 / number2));
+//		} else if (operator == 4) {
+//			System.out.println("Result: " + (number1 * number2));
+//		} else {
+//			System.out.println("Invalid Operation");
+//		}
+//	}
+		performOperationUsingSwitch(number1, number2, operator);
+	}
+	
+	private static void performOperationUsingSwitch(int number1, int number2, int operator) {
+		switch(operator) {
+		case 1: System.out.println("Result: " + (number1 + number2)); break;
+		case 2: System.out.println("Result: " + (number1 - number2)); break;
+		case 3: System.out.println("Result: " + (number1 / number2)); break;
+		case 4: System.out.println("Result: " + (number1 * number2)); break;
+		default: System.out.println("Invalid Operation"); break;
+		
 		}
 	}
 }
