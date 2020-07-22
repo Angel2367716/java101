@@ -5,6 +5,7 @@ public class SwitchStatement {
 	public static void main(String[] args) {
 		System.out.println(determineNameOfDay(5));
 		System.out.println(determineNameOfMoth(11));
+		System.out.println(isWeekDay(0));
 	}
 
 	public static String determineNameOfDay(int dayNumber) {
@@ -56,6 +57,19 @@ public class SwitchStatement {
 
 		}
 		return "Invalid_Month";
+	}
+
+	private static boolean isWeekDay(int dayNumber) {
+		switch (dayNumber) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+			return true;
+
+		}
+		return false;
 	}
 
 }
