@@ -30,17 +30,14 @@ public class MyNumber {
 		return sum;
 	}
 
-	//	public int sumUptoN() {
-	//		return 0;
-	//	}
-	//
-	//	public int sumOfDivisors() {
-	//		return 0;
-	//	}
-	//
-	//	public void printNumberTriangle() {
-	//
-	//	}
-
+	public int sumOfDivisors() {
+		int sum = 0;
+		for (int i = 2; i <= number - 1; i++) {
+			if (number % i == 0) {
+				sum = sum + i;
+			}
+		}
+		return sum;
+	}
 
 }
