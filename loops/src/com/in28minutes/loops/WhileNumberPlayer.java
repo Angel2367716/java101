@@ -21,8 +21,9 @@ public class WhileNumberPlayer {
 
 	public void printCubesUptoLimit() {
 		// For limit = 30, output would be 1 8 27
+		// this method includes the limit
 		int i = 1;
-		while (i * i * i < limit) {
+		while (i * i * i <= limit) {
 			System.out.print(i * i * i + " ");
 			i++;
 		}
