@@ -7,7 +7,7 @@ public class WhileNumberPlayerRunner {
 
 		player.printSquaresUptoLimit();
 
-		//		player.printSCubesUptoLimit();
+		player.printCubesUptoLimit();
 
 	}
 
