@@ -5,10 +5,17 @@ import java.util.Scanner;
 public class DoWhileRepeatedQuestionRunner {
 
 	public static void main(String[] args) {
-		System.out.print("Enter a number: ");
 		Scanner scanner = new Scanner(System.in);
-		int number = scanner.nextInt();
-		System.out.println("Cube is " + (number * number * number));
+		int number = -1;
+
+		do {
+			if (number != -1) {
+				System.out.println("Cube is " + (number * number * number));
+			}
+			System.out.print("Enter a number: ");
+			number = scanner.nextInt();
+		} while (number >= 0);
+		System.out.println("Thank you! Have Fun!");
 	}
 
 }
