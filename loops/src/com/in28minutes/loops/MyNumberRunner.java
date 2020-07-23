@@ -3,7 +3,7 @@ package com.in28minutes.loops;
 public class MyNumberRunner {
 
 	public static void main(String[] args) {
-		MyNumber number = new MyNumber(9);
+		MyNumber number = new MyNumber(5);
 		boolean isPrime = number.isPrime();
 		System.out.println("isPrime " + isPrime);
 
@@ -13,7 +13,7 @@ public class MyNumberRunner {
 		int sumfOfDivisors = number.sumOfDivisors();
 		System.out.println("sumfOfDivisors " + sumfOfDivisors);
 
-		//		number.printNumberTriangle();
+		number.printNumberTriangle();
 	}
 
 }
