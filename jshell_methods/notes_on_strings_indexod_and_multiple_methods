@@ -1,0 +1,81 @@
+class Planet {
+}
+Planet jupiter = new Planet ();
+int i = 5;
+class Animal {
+    int id;
+    Animal(int id) {
+        this.id=id;
+    }
+}
+Animal nothing;
+nothing = cat
+nothing.id = 10
+cat.id
+nothing = dog
+nothing.id
+int j = i;
+j = 6
+i
+i == j
+j = 5
+Animal dog = new Animal (12);
+Animal cat = new Animal (10);
+Animal ref = cat;
+Animal dog2 = new Animal(12);
+cat == dog
+cat == ref
+dog == dog2
+"Test".length()
+str.charAt(0)
+str.charAt(3)
+str.charAt(1)
+str.charAt(2)
+String biggerString = "This is a lot of text";
+biggerString.substring(5)
+biggerString.substring(5,13)
+biggerString.charAt(13)
+String str1 = "SomeString";
+biggerString.charAt(456)
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString);
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.substring(1));
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.substring(1, 5));
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.substring(1, 5));
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.charAt(i));
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.charAt(0));
+}
+for(int i = 0; i <= someString.length(); i++){
+    System.out.println(someString.charAt(i));
+}
+someString.length()
+someString.charAt(5)
+for(int i = 0; i < someString.length(); i++){
+    System.out.println(someString.charAt(i));
+}
+for(int i = 0; i < someString.length(); i++){
+    System.out.println(someString.charAt(i));
+}
+someString.indexOf("lot")
+someString.charAt(10)
+someString.charAt(i)
+someString.indexOf('i')
+String someString = "This is a lot of text again";
+someString.startsWith("This")
+someString.startsWith("adfagad")
+someString.endsWith("again")
+someString.isEmpty()
+"true".equals("true")
+String str = "value";
+str.equals("value")
+str.equals("VAlue")
