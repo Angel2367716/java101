@@ -1,0 +1,45 @@
+int i = 1;
+while (i < 5 ) {
+   System.out.print(i + "" );
+   i++;
+}
+i = 1
+do {
+   System.out.print(i + "" );
+   i++;
+} while (i<5);
+while (i < 5 ) {
+   System.out.print(i + "" );
+   i++;
+}
+do {
+   System.out.print(i + "" );
+   i++;
+} while (i<5);
+System.out.println("a do loop will be executed at least once, even if the condition is met. A while loop will not execute if the condition is not met");
+for (i=1;i<=10;i++){
+   if(i==5)
+       break;
+    System.out.print(i + " ");
+}
+for (i=1;i<=10;i++){
+   if(i%2==0)
+       break;
+    System.out.print(i + " ");
+}
+for (i=1;i<=10;i++){
+   if(i%2==0)
+       continue;
+    System.out.print(i + " ");
+}
+System.out.println("break takes you out of the loop, but continue allows you to continue through the loop");
+for (i=1;i<=10;i++){
+   if(i%1==0)
+       continue;
+    System.out.print(i + " ");
+}
+for (i=1;i<=10;i++){
+   if(i%2==1)
+       continue;
+    System.out.print(i + " ");
+}
