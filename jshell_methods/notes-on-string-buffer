@@ -1,0 +1,18 @@
+1 + 2 + "3"
+"1" + 2 + 3
+int i = 20;
+System.out.println("Value is " + 20)
+System.out.println("Value is " + 20 + 20)
+System.out.println("Value is " + (20 + 20))
+String.join(",", "2", "3", "4")
+String.join(",", "A", "B", "C")
+String.join(",", "A")
+String.join(",", "A", "B")
+"abcd".replace('a', 'z');
+"123" + "123" + "1234" +"123456"
+sb
+sb.append(" 123")
+sb
+sb.setCharAt(1,'e')
+sb
+StringBuilder sb = new StringBuilder("test");

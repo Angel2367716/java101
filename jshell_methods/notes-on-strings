@@ -1,0 +1,13 @@
+str.concat("is awesome");
+str
+String anotherString = str.concat (" is awesome");
+str
+String string2 = anotherString.concat(".");
+str
+anotherString
+string2
+String str = "in28minutes is awesome.";
+str.toUpperCase()
+str.toLowerCase()
+String str2 = " in28Minutes is awesome.  ";
+str2.trim()
