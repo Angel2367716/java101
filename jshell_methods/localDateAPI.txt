@@ -1,0 +1,23 @@
+import java.time.*;
+LocalDate today = LocalDate.now();
+today.getYear()
+today.getDayOfWeek()
+today.getDayOfMonth()
+today.getDayOfYear()
+today.getMonth()
+today.getMonthValue()
+today.isLeapYear()
+today.lengthOfYear()
+today.lengthOfMonth()
+today.plusDays(100)
+today.plusDays(130)
+today.plusDays(132)
+today.plusMonths(2)
+today.plusYears(2)
+today.minusYears(2)
+LocalDate hundredYearsBefore = today.minusYears(100);
+today
+LocalDateTime now = LocalDateTime.now();
+now.plusHours(39)
+now.getMonthValue()
+now.getNano()
